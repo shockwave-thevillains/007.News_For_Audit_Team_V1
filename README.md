@@ -1,14 +1,15 @@
-# 🗞️ Weekly News Digest — Tim Audit (Scheduled)
+# 🗞️ Weekly News Digest — Internal Audit & IT Audit (Scheduled)
 
-Rangkuman & analisa **berita satu minggu terakhir** untuk tim audit, mencakup
+Rangkuman & analisa **berita satu minggu terakhir** untuk tim Internal Audit
+dan IT Audit, mencakup
 **7 topik tetap** — dari pelindungan data pribadi sampai bencana alam —
 dijalankan otomatis oleh Claude **setiap Senin jam 11.00 WIB**.
 
 Bukan agregator headline. Tiap Senin Claude membaca berita 7 hari terakhir,
 memverifikasi tanggal dan angkanya, mencari benang merah antar topik, lalu
-menerjemahkannya ke **bahasa auditor & praktisi** — kontrol apa yang goyah,
-regulasi apa yang bergerak, biaya apa yang naik, dan apa yang harus dikerjakan
-minggu ini.
+menerjemahkannya ke **bahasa kerja tim audit** — proses apa yang tersentuh,
+regulasi apa yang bergerak, biaya apa yang naik, apa yang perlu ditanyakan, dan
+apa yang bisa dikerjakan minggu ini.
 
 ---
 
@@ -29,7 +30,7 @@ minggu ini.
 ## ⚙️ Cara Kerjanya
 
 ```
-Senin 11.00 WIB  ──▶  Routine memicu sesi Claude baru
+Senin 11.00 WIB  ──▶  Routine membangunkan sesi Claude terjadwal
                          │
                          ├─ 1. Baca prompts/weekly-brief.md (spesifikasi kerja)
                          │      + 2-3 digest terakhir di summary/
@@ -42,8 +43,9 @@ Senin 11.00 WIB  ──▶  Routine memicu sesi Claude baru
                          │      yang independen (aturan paling keras)
                          │
                          ├─ 4. Analisa: benang merah antar topik,
-                         │      sudut auditor (ISO 27001 / ITGC / UU PDP),
-                         │      action board
+                         │      sudut audit umum — apa yang tersentuh,
+                         │      apa yang perlu ditanyakan, risiko kalau
+                         │      dibiarkan — lalu action board
                          │
                          ├─ 5. Tulis digest lengkap DI CHAT  ──▶ dibaca dari HP 📱
                          │
@@ -61,6 +63,10 @@ Senin 11.00 WIB  ──▶  Routine memicu sesi Claude baru
 | `summary/YYYY/MM/*.md` | Arsip digest mingguan. |
 | `summary/INDEX.md` | Daftar isi semua digest (auto-generate). |
 | `scripts/build_index.py` | Regenerator `summary/INDEX.md`. |
+| `README.md` | Dokumen ini — gambaran flow, aturan sitasi, dan cara menyesuaikan. |
+
+Semua pekerjaan berjalan di branch `claude/scheduled-news-digest-9qqavp`.
+Routine tidak pernah membuat pull request.
 
 ## 🔗 Aturan Sitasi
 
@@ -92,8 +98,16 @@ https://code.claude.com/docs/en/claude-code-on-the-web
 
 - **Ganti jam / hari** → ubah cron Routine (disimpan dalam UTC; Senin 11.00 WIB = Senin 04:00 UTC → `0 4 * * 1`).
 - **Ganti topik atau sumber** → edit tabel di `prompts/weekly-brief.md` bagian "Tujuh Topik Wajib".
-- **Ganti gaya analisa** → edit bagian "Gaya Bahasa" & "Struktur Dokumen" di prompt yang sama.
+- **Ganti gaya bahasa** → edit bagian "Gaya Bahasa" di prompt yang sama.
+- **Ganti struktur dokumen atau isi tiap bagian** → edit bagian "Struktur Dokumen".
+- **Ganti cara menulis sudut audit** → edit bagian "Sudut Audit" di dalam "Struktur Dokumen". Di situlah larangan memaksakan kerangka tertentu disimpan.
+- **Ganti aturan sitasi** → edit bagian "Aturan Sitasi".
 - **Berhenti sementara** → nonaktifkan Routine (`enabled: false`), arsip tetap aman.
+
+Kalau prompt diubah, **ubah juga prompt Routine-nya** kalau perubahannya
+menyentuh hal yang ikut disebut di sana (struktur wajib, aturan sitasi, daftar
+topik). Prompt Routine sengaja dibuat hanya sebagai ringkasan — kalau keduanya
+berbeda, `prompts/weekly-brief.md` yang menang.
 
 ## 🧭 Untuk Siapa Ini Dibuat
 
@@ -111,3 +125,11 @@ Maka setiap digest wajib menjawab tiga pertanyaan, bukan cuma "apa yang terjadi"
 Standar atau regulasi disebut **hanya bila memang relevan dan penulis yakin** —
 bukan sebagai hiasan di setiap digest. Kalau ragu, sebutkan isunya dan biarkan
 pembaca memetakannya sendiri ke kerangka yang dipakai timnya.
+
+Sudut pandangnya adalah **organisasi sendiri**, bukan auditor eksternal yang
+menangani klien. Jadi "organisasi kita", bukan "klien".
+
+Satu hal lagi yang dikunci di spesifikasi: digest ini **analisa berita biasa**.
+Isi, sudut pandang, dan prioritasnya tidak boleh dibentuk oleh memori akun,
+preferensi tersimpan, atau riwayat percakapan siapa pun — ditulis seolah dibaca
+orang yang belum pernah berinteraksi dengan Claude.

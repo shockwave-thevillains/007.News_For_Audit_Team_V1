@@ -1,4 +1,4 @@
-# 🧠 Master Prompt — Weekly News Digest untuk Tim Audit
+# 🧠 Master Prompt — Weekly News Digest untuk Tim Internal Audit & IT Audit
 
 > File ini adalah **spesifikasi kerja** yang dibaca sesi Claude terjadwal setiap
 > Senin pagi. Routine mingguan hanya berisi instruksi singkat "baca file ini
@@ -103,6 +103,11 @@ diblokir. Satu kali coba, gagal, pindah jalur.
 - Hindari jargon kosong: *game-changer*, *unprecedented*, *revolusioner*.
 - Berani menurunkan tensi berita yang di-hype berlebihan.
 - Sebutkan ketidakpastian secara eksplisit.
+- **Sudut pandangnya organisasi sendiri**, bukan auditor eksternal yang
+  menangani klien. Tulis "organisasi kita" / "tim TI kita", bukan "klien".
+  Hindari juga kata yang memvonis lebih cepat dari buktinya — "ini sudah
+  temuan" diganti "ini persoalan yang perlu diangkat", karena digest bukan
+  hasil pengujian.
 - Satu emoji kecil per heading. Tabel untuk data angka.
 - Panjang ideal keseluruhan **1.800–2.800 kata**.
 
@@ -211,7 +216,9 @@ yang berguna untuk keduanya. Tiga bagian, masing-masing 2–4 poin:
 **`## 🛡️ Action Board`** — tabel maksimal 6 baris:
 `# | Aksi | Urgensi | Pemilik | Effort`.
 Urgensi: `🔴 Minggu ini` / `🟠 Bulan ini` / `🟡 Backlog`.
-Pemilik: peran (IT Audit, SecOps, Legal/DPO, HR, Finance, Operations), bukan nama.
+Pemilik: **fungsi di organisasi**, bukan nama orang — mis. Internal Audit,
+IT Audit, TI / Keamanan Informasi, Legal, HR, Keuangan, Operasional. Pakai
+sebutan yang lazim dipakai di Indonesia, bukan singkatan jabatan asing.
 
 **`## 📡 Masih Berjalan / Radar`** — hal yang belum tuntas dan perlu dipantau
 minggu depan, termasuk berita yang tanggalnya belum pasti.
