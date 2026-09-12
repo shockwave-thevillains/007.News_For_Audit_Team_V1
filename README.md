@@ -97,11 +97,17 @@ https://code.claude.com/docs/en/claude-code-on-the-web
 
 ## 🧭 Untuk Siapa Ini Dibuat
 
-Pembacanya **tim audit** di Indonesia — IT Auditor yang juga menaruh perhatian
-pada hukum data (UU PDP 27/2022, UU ITE), kepatuhan, dan risiko operasional
-perusahaan. Maka setiap digest wajib menjawab tiga pertanyaan, bukan cuma
-"apa yang terjadi":
+Pembacanya **tim Internal Audit dan IT Audit** di Indonesia. Keduanya dilayani
+oleh satu dokumen yang sama, jadi analisanya sengaja dijaga **umum** — cukup
+berguna untuk yang mengaudit proses bisnis, dan cukup berguna untuk yang
+mengaudit sistem, tanpa memaksakan kerangka atau standar tertentu.
 
-1. Kontrol atau kewajiban apa yang tersentuh berita ini?
-2. Kalau ini terjadi di klien/perusahaan kita, apa temuannya?
+Maka setiap digest wajib menjawab tiga pertanyaan, bukan cuma "apa yang terjadi":
+
+1. Proses, kontrol, atau kewajiban apa di organisasi yang tersentuh berita ini?
+2. Kalau situasinya terjadi di organisasi kita, risikonya di mana?
 3. Apa satu langkah konkret yang bisa dikerjakan minggu ini?
+
+Standar atau regulasi disebut **hanya bila memang relevan dan penulis yakin** —
+bukan sebagai hiasan di setiap digest. Kalau ragu, sebutkan isunya dan biarkan
+pembaca memetakannya sendiri ke kerangka yang dipakai timnya.

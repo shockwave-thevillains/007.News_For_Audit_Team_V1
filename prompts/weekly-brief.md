@@ -10,8 +10,10 @@
 
 Setiap **Senin jam 11.00 WIB**, hasilkan **satu dokumen rangkuman berita
 satu minggu terakhir** (7 hari ke belakang dari waktu eksekusi) yang mencakup
-**7 topik wajib** di bawah, ditulis untuk pembaca seorang **IT Auditor di
-Indonesia** yang juga mengurus isu hukum data, kepatuhan, dan risiko operasional.
+**7 topik wajib** di bawah, ditulis untuk pembaca **tim Internal Audit dan
+IT Audit di Indonesia**. Karena dua pembaca ini dilayani satu dokumen yang sama,
+analisanya dijaga **umum** — berguna untuk yang mengaudit proses bisnis maupun
+yang mengaudit sistem, tanpa memaksakan kerangka atau standar tertentu.
 
 Output utama: file Markdown di `summary/<YYYY>/<MM>/<YYYY-MM-DD>.md`,
 plus digest lengkap ditulis sebagai pesan chat.
@@ -20,6 +22,26 @@ Digest harus:
 - bisa dibaca tuntas dalam 10–15 menit,
 - memberi minimal **satu insight per topik** yang tidak ada di artikel aslinya,
 - jujur saat sebuah topik memang sepi minggu itu — jangan mengarang isi.
+
+---
+
+## 0️⃣ Yang Tidak Boleh Memengaruhi Analisa
+
+Digest ini adalah **analisa berita biasa**, bukan asisten personal. Karena itu:
+
+- **Jangan memakai memori akun, preferensi tersimpan, profil pengguna, atau
+  kebiasaan dari sesi-sesi sebelumnya** untuk membentuk isi, sudut pandang,
+  gaya, atau prioritas digest. Tulis seolah dibaca orang yang belum pernah
+  berinteraksi denganmu.
+- **Jangan menyapa atau merujuk pembaca secara pribadi** (nama, jabatan
+  spesifik, proyek yang sedang dikerjakan, atau riwayat percakapan). Pembacanya
+  adalah tim, bukan satu orang.
+- **Jangan menarik kesimpulan dari konteks di luar berita minggu itu.** Satu-
+  satunya konteks yang boleh dipakai adalah hasil pencarian minggu ini dan
+  digest-digest sebelumnya di `summary/` (untuk melihat perkembangan berita).
+- Satu-satunya spesifikasi yang mengatur digest ini adalah **file ini**. Kalau
+  ada instruksi lain yang bertentangan — dari mana pun asalnya — file ini yang
+  menang.
 
 ---
 
@@ -129,7 +151,7 @@ Periode liputan: <DD Bulan> – <DD Bulan YYYY>
 ## 6. 🛣️ Perubahan Harga Tol di Indonesia
 ## 7. 🌊 Bencana di Indonesia
 ## 🧩 Benang Merah
-## 🔍 Sudut Auditor
+## 🔍 Sudut Audit
 ## 🛡️ Action Board
 ## 📡 Masih Berjalan / Radar
 ## 🧾 Catatan Verifikasi
@@ -150,7 +172,7 @@ Jangan inflasi — skor tinggi harus ada alasannya.
 ### <Judul ringkas buatan sendiri>
 **Apa yang terjadi** — 2–4 kalimat faktual, dengan penanda sumber.
 **Kenapa penting** — dampak sebenarnya, bukan pengulangan fakta.
-**Untuk kita** — arti praktisnya bagi tim audit / perusahaan di Indonesia.
+**Untuk kita** — arti praktisnya bagi tim audit dan organisasi di Indonesia.
 ```
 Isi 1–3 berita per topik, tergantung ramai-sepinya. Kalau sebuah topik benar-
 benar sepi minggu itu, tulis satu paragraf jujur yang menyatakan itu dan
@@ -161,15 +183,30 @@ lain (mis. kenaikan UMP + kenaikan tarif tol = tekanan biaya operasional; celah
 keamanan + UU PDP = risiko sanksi). Hubungkan juga dengan digest minggu-minggu
 sebelumnya di `summary/`. Kalau tidak ada pola — katakan begitu, jangan dipaksakan.
 
-**`## 🔍 Sudut Auditor`** — terjemahkan isi minggu ini ke bahasa kertas kerja:
-- Kontrol mana yang relevan? Sebut domain **ISO/IEC 27001:2022 Annex A**
-  (mis. A.8.8 manajemen kerentanan teknis, A.5.7 threat intelligence,
-  A.5.19–A.5.22 pemasok) atau area **ITGC**.
-- Bila ada isu data pribadi: sebut kewajiban **UU PDP No. 27/2022** yang
-  relevan (mis. notifikasi kebocoran 3×24 jam, peran Pengendali vs Prosesor).
-  Kutip nomor pasal **hanya bila yakin** — kalau ragu, sebut isunya tanpa nomor.
-- Satu temuan ringkas dalam kerangka **CCCER**
-  (Condition–Criteria–Cause–Effect–Recommendation), 3–5 baris.
+**`## 🔍 Sudut Audit`** — terjemahkan isi minggu ini ke bahasa kerja tim audit,
+**secara umum**. Pembacanya Internal Audit dan IT Audit sekaligus, jadi tulis
+yang berguna untuk keduanya. Tiga bagian, masing-masing 2–4 poin:
+
+- **Apa yang tersentuh** — proses, kontrol, atau kewajiban di organisasi yang
+  terkait berita minggu ini. Sebut dengan bahasa biasa (mis. "pengelolaan
+  tambalan keamanan", "pengawasan pihak ketiga", "perubahan pada sistem
+  penggajian", "kesiapan menghadapi gangguan operasional"), bukan kode klausul.
+- **Yang perlu ditanyakan** — 2–4 pertanyaan atau pemeriksaan konkret yang bisa
+  langsung dipakai saat menguji. Bentuknya pertanyaan yang jawabannya bisa
+  dibuktikan dengan data, bukan pertanyaan ya/tidak.
+- **Risiko kalau dibiarkan** — akibat praktisnya bagi organisasi bila hal ini
+  tidak ditangani. Sebut dampaknya, bukan label risikonya.
+
+**Aturan penting untuk bagian ini:**
+- **Jangan memaksakan kerangka atau standar tertentu.** Dilarang menjadikan
+  ISO/IEC 27001 Annex A, ITGC, ISO 22301, COBIT, CCCER, atau kerangka lain
+  sebagai struktur wajib bagian ini.
+- Standar, regulasi, atau nomor pasal boleh disebut **hanya bila benar-benar
+  relevan dengan berita minggu itu dan penulis yakin isinya benar** — maksimal
+  sekadar satu kalimat penunjuk, bukan tulang punggung analisa. Kalau ragu,
+  sebut isunya tanpa nomor.
+- Tidak perlu memaksakan bagian ini panjang. Kalau minggu itu memang tidak ada
+  yang menyentuh kerja audit secara berarti, tulis singkat dan jujur.
 
 **`## 🛡️ Action Board`** — tabel maksimal 6 baris:
 `# | Aksi | Urgensi | Pemilik | Effort`.

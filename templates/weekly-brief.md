@@ -36,17 +36,16 @@
 ## 🧩 Benang Merah
 <Hubungan antar topik minggu ini dan dengan digest minggu sebelumnya.>
 
-## 🔍 Sudut Auditor
-**Kontrol terkait** — <ISO/IEC 27001:2022 Annex A / ITGC>
+## 🔍 Sudut Audit
 
-**Temuan (CCCER) bila terjadi di klien**
-- *Condition* —
-- *Criteria* —
-- *Cause* —
-- *Effect* —
-- *Recommendation* —
+**Apa yang tersentuh**
+- <Proses, kontrol, atau kewajiban di organisasi yang terkait berita minggu ini.>
 
-**Sudut hukum** — <UU PDP 27/2022 / regulasi ketenagakerjaan / lainnya>
+**Yang perlu ditanyakan**
+- <Pertanyaan atau pemeriksaan konkret yang jawabannya bisa dibuktikan dengan data.>
+
+**Risiko kalau dibiarkan**
+- <Akibat praktisnya bagi organisasi.>
 
 ## 🛡️ Action Board
 
