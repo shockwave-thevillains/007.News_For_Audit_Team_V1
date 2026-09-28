@@ -70,6 +70,37 @@ terang** di bagian Catatan Verifikasi dan lanjutkan dengan web search terbuka
 **Jangan** memakai `WebFetch`/`curl` berkali-kali ke domain yang sudah terbukti
 diblokir. Satu kali coba, gagal, pindah jalur.
 
+### Sapuan wajib: insiden domestik Indonesia
+
+Sumber utama topik Cyber dan PDP condong ke regulasi dan vendor global, sehingga
+**insiden nyata di perusahaan Indonesia nyaris tidak pernah tertangkap**. Ini
+terbukti: selama tiga minggu pertama, isu perbankan yang ramai dibicarakan
+publik tidak pernah muncul di digest karena tidak ada satu pun query yang
+mengarah ke sana.
+
+Karena itu, **selain** query per topik di atas, jalankan **dua query tambahan
+wajib** setiap minggu:
+
+1. **Insiden domestik** — kebocoran data perusahaan Indonesia, serangan siber ke
+   organisasi Indonesia, gangguan layanan perbankan atau fintech, sanksi atau
+   teguran dari OJK maupun Komdigi. Sertakan rentang tanggal minggu berjalan.
+2. **Isu yang sedang ramai** — pakai kata kunci yang dipakai media Indonesia saat
+   mengangkat pembicaraan publik, misalnya "viral", "ramai di media sosial",
+   "trending", digabung dengan sektor yang relevan bagi pembaca (perbankan,
+   asuransi, e-commerce, layanan publik, ketenagakerjaan).
+
+Hasilnya masuk ke topik yang paling cocok — biasanya Cyber atau PDP. Kalau
+sapuan ini tidak menemukan apa pun, **katakan itu di Catatan Verifikasi**,
+jangan diam saja: pembaca perlu tahu bahwa pencariannya dilakukan dan hasilnya
+memang nihil, bukan bahwa topiknya tidak diperiksa.
+
+**Batas yang harus diakui terus terang.** Digest ini **tidak bisa memantau media
+sosial**. Domain seperti Threads dan X diblokir egress proxy, dan itu tidak bisa
+diperbaiki dari file ini. Artinya isu yang sedang ramai baru tertangkap setelah
+diangkat media arus utama — biasanya tertinggal satu sampai dua hari, kadang
+tidak tertangkap sama sekali. Sebutkan keterbatasan ini di Catatan Verifikasi
+bila minggu itu ada isu ramai yang hanya terbaca sepotong.
+
 ---
 
 ## 2️⃣ Jendela Waktu & Verifikasi Tanggal
