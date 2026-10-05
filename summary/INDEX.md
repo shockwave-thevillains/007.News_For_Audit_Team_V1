@@ -1,6 +1,12 @@
 # 📚 Arsip Weekly News Digest — Tim Audit
 
-Total **4** digest · diperbarui 2026-09-28
+Total **5** digest · diperbarui 2026-10-05
+
+## Oktober 2026
+
+| Tanggal | Periode liputan | Ringkasan |
+|---|---|---|
+| [2026-10-05](2026/10/2026-10-05.md) | 28 September – 5 Oktober 2026 | **Pemerintah menyelidiki jual beli data pribadi yang kembali beredar.** Komdigi menggandeng Polri dan BSSN mengusut situs-situs yang memperjualbelikan data pribadi, dengan tindakan termasuk pemblokira |
 
 ## September 2026
 
