@@ -1,11 +1,12 @@
 # 📚 Arsip Weekly News Digest — Tim Audit
 
-Total **5** digest · diperbarui 2026-10-05
+Total **6** digest · diperbarui 2026-10-12
 
 ## Oktober 2026
 
 | Tanggal | Periode liputan | Ringkasan |
 |---|---|---|
+| [2026-10-12](2026/10/2026-10-12.md) | 5 – 12 Oktober 2026 | **UU Perlindungan Ketenagakerjaan disahkan DPR pada 6 Oktober**, dan ketidakpastian dua minggu terakhir akhirnya terjawab: **upah minimum 2027 tetap memakai aturan lama**. Formula baru berbasis Kebutu |
 | [2026-10-05](2026/10/2026-10-05.md) | 28 September – 5 Oktober 2026 | **Pemerintah menyelidiki jual beli data pribadi yang kembali beredar.** Komdigi menggandeng Polri dan BSSN mengusut situs-situs yang memperjualbelikan data pribadi, dengan tindakan termasuk pemblokira |
 
 ## September 2026
