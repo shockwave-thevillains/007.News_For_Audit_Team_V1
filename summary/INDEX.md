@@ -1,11 +1,12 @@
 # 📚 Arsip Weekly News Digest — Tim Audit
 
-Total **6** digest · diperbarui 2026-10-12
+Total **7** digest · diperbarui 2026-10-19
 
 ## Oktober 2026
 
 | Tanggal | Periode liputan | Ringkasan |
 |---|---|---|
+| [2026-10-19](2026/10/2026-10-19.md) | 12 – 19 Oktober 2026 | **ICP September 2026 ditetapkan US$112,81 per barel** — melonjak US$23,38 dari Agustus dan **61% di atas asumsi APBN sebesar US$70** . Ini angka resmi yang ditunggu tiga minggu terakhir, dan hasilnya  |
 | [2026-10-12](2026/10/2026-10-12.md) | 5 – 12 Oktober 2026 | **UU Perlindungan Ketenagakerjaan disahkan DPR pada 6 Oktober**, dan ketidakpastian dua minggu terakhir akhirnya terjawab: **upah minimum 2027 tetap memakai aturan lama**. Formula baru berbasis Kebutu |
 | [2026-10-05](2026/10/2026-10-05.md) | 28 September – 5 Oktober 2026 | **Pemerintah menyelidiki jual beli data pribadi yang kembali beredar.** Komdigi menggandeng Polri dan BSSN mengusut situs-situs yang memperjualbelikan data pribadi, dengan tindakan termasuk pemblokira |
 
