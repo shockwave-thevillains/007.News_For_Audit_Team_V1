@@ -1,6 +1,12 @@
 # 📚 Arsip Weekly News Digest — Tim Audit
 
-Total **8** digest · diperbarui 2026-10-26
+Total **9** digest · diperbarui 2026-11-02
+
+## November 2026
+
+| Tanggal | Periode liputan | Ringkasan |
+|---|---|---|
+| [2026-11-02](2026/11/2026-11-02.md) | 26 Oktober – 2 November 2026 | **Data sekitar 5,7 juta akun pelanggan Fore Coffee terdampak kebocoran.** Perusahaan mengakui ada akses tanpa izin ke platform pengelolaan data pelanggan pada 28 Oktober, dan menyatakan akses itu dihe |
 
 ## Oktober 2026
 
