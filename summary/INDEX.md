@@ -1,11 +1,12 @@
 # 📚 Arsip Weekly News Digest — Tim Audit
 
-Total **9** digest · diperbarui 2026-11-02
+Total **10** digest · diperbarui 2026-11-09
 
 ## November 2026
 
 | Tanggal | Periode liputan | Ringkasan |
 |---|---|---|
+| [2026-11-09](2026/11/2026-11-09.md) | 2 – 9 November 2026 | **Harga minyak jatuh 13–16% dalam sepekan** dan Brent keluar dari level US$100 untuk pertama kali sejak awal Oktober, dipicu hasil pemilu sela Amerika Serikat yang membuat pasar berharap konflik Iran  |
 | [2026-11-02](2026/11/2026-11-02.md) | 26 Oktober – 2 November 2026 | **Data sekitar 5,7 juta akun pelanggan Fore Coffee terdampak kebocoran.** Perusahaan mengakui ada akses tanpa izin ke platform pengelolaan data pelanggan pada 28 Oktober, dan menyatakan akses itu dihe |
 
 ## Oktober 2026
